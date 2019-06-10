@@ -25,7 +25,8 @@
 .slogan {
 font-family: 'Ranga', cursive;
  font-style: italic;
-  padding-top: 26px;
+ font-size: 30px;
+  padding-top: 40px;
 }
 .links {
   padding-top: 26px;
@@ -37,19 +38,21 @@ font-family: 'Ranga', cursive;
 }
 header {
   border-top: 9px solid #222222;
+  border-bottom: 2px solid #000000;
 }
 hr {
   clear:both;
 }
 h1 {
- font-family: 'Ranga', cursive;
+ font-family: 'Permanent Marker', cursive;
   font-weight: 600;
-  letter-spacing: -1.5px;
+  letter-spacing: 1.5px;
 }
 h2 {
  font-family: 'Ranga', cursive;
   font-weight: 600;
   letter-spacing: -1.5px;
+  
 }
 .next-quote {
   color:#f84342;
@@ -80,11 +83,6 @@ h2 span {
   color: #dddddd;
   font-family: 'Poiret One', cursive;
 }
-
-::selection {
-  backroug-color: #f84342;
-}
-
 
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
